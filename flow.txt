@@ -1,0 +1,4 @@
+pip install opencv-python mediapipe numpy joblib scikit-learn keras-facenet tensorflow
+python augment.py
+python train.py
+python model1.py
