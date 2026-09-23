@@ -11,7 +11,7 @@ import time
 # -----------------------------
 # Configuration & constants
 # -----------------------------
-DATASET_BASE_PATH = r"C:\Codes\SIH\BTECH"
+DATASET_BASE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "BTECH")
 MODEL_PATH = "face_svm.pkl"
 LABEL_MAP_PATH = "label_map.pkl"
 THRESHOLD = 0.5
